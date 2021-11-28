@@ -15,14 +15,6 @@ fun main(args: Array<String>) {
     var clientesLista = listOf<Clientes>(cliente1, cliente3)
     var tienda1 = Tienda("Alameda", clientesLista)
 
-    //  println(tienda1.obtenerConjuntoDeClientes())
-    // println(tienda1.obtenerCiudadesDeClientes())
-    //  println(tienda1.obtenerClientesPor(ciudad1))
-
-    // println(tienda1.checkTodosClientesSonDe(ciudad1))
-    // println(tienda1.hayClientesDe(ciudad2))
-    //  println(tienda1.cuentaClientesDe(ciudad1))
-    println(tienda1.encuentraClienteDe(ciudad2))
 }
 
 data class Tienda(val nombre: String, val clientes: List<Clientes>) {
